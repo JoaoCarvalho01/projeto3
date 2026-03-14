@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+body {
+  background: #0f0f0f;
+  color: white;
+}
+
+header {
+  padding: 20px 10%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav button {
+  background: #ff3c00;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1{
+  color: #ff3c00;
+}
+
+.preto{
+    color: black;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 0.5rem;
+    padding: 3px;
+}
+
+.hero {
+  height: 80vh;
+  background: url("https://images.unsplash.com/photo-1540497077202-7c8a3999166f")
+    center/cover;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #ff3c00;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.about {
+  display: flex;
+  padding: 80px 10%;
+  gap: 50px;
+  align-items: center;
+}
+
+.about img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.carousel-section {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.carousel-track {
+  display: flex;
+  overflow: hidden;
+  width: 600px;
+}
+
+.carousel-track img {
+  width: 600px;
+  border-radius: 10px;
+}
+
+.prev,
+.next {
+  background: #ff3c00;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.plans {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  background: #1c1c1c;
+  padding: 40px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.card span {
+  display: block;
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+.card button {
+  background: #ff3c00;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.destaque {
+  transform: scale(1.1);
+  background: #ff3c00;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  opacity: 0.7;
+}
